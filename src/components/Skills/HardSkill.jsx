@@ -1,16 +1,4 @@
-import styled from "styled-components";
-const HardSkillContainer = styled.div`
-  width: 90%;
-  padding: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-`;
-const SkillsImg = styled.img`
-  width: 50px;
-  height: 50px;
-  margin: 2%;
-`;
+import { HardSkillContainer, SkillsImg } from ".";
 
 const HardSkillComponent = () => {
   return (

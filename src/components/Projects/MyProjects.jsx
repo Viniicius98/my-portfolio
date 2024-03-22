@@ -1,42 +1,4 @@
-import styled from "styled-components";
-
-const MyProjectsContainer = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-`;
-
-const Project = styled.div`
-  width: auto;
-  height: auto;
-  margin: 2%;
-  padding: 2%;
-  border: 1px solid black;
-  border-radius: 5%;
-  img {
-    width: 50px;
-    height: 50px;
-    margin: 2%;
-  }
-`;
-const Title = styled.h1`
-  font-size: 18px;
-  text-align: center;
-  font-family: Verdana, sans-serif;
-`;
-const SubTitle = styled.h4`
-  font-size: 14px;
-  text-align: center;
-  font-family: Verdana, sans-serif;
-`;
-const Text = styled.p`
-  font-size: 12px;
-  line-height: 1.5;
-  text-align: center;
-  font-family: Verdana, sans-serif;
-`;
+import { MyProjectsContainer, Project, Title, Text, SubTitle } from ".";
 
 const MyProjectsComponents = () => {
   return (

@@ -1,22 +1,4 @@
-import styled from "styled-components";
-
-const SoftSkillContainer = styled.div`
-  width: 100%;
-  height: 25vh;
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    li {
-      list-style-type: none;
-      background-color: #f0f0f0;
-      padding: 8px;
-      border-radius: 5px;
-    }
-  }
-`;
+import { SoftSkillContainer } from ".";
 const SoftSkillComponent = () => {
   return (
     <SoftSkillContainer>

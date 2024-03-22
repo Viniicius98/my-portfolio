@@ -5,47 +5,30 @@ import reportWebVitals from "./reportWebVitals";
 import ErrorPage from "./routes/ErrorPage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./routes/App";
+import ApresentationScreen from "./routes/Apresentation";
 
 // const router = createBrowserRouter([
 //   {
 //     path: "/",
-//     element: <Home />,
+//     element: <ApresentationScreen />,
+//     errorElement: <ErrorPage />,
 //   },
 //   {
-//     path: "/sobre",
-//     element: <AboutMe />,
+//     path: "/home",
+//     element: <App />,
+//     errorElement: <ErrorPage />,
 //   },
 // ]);
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <ApresentationScreen />,
     errorElement: <ErrorPage />,
     children: [
-      // {
-      //   path: "/home",
-      //   element: <Apresentation />,
-      // },
-      // {
-      //   path: "/sobre",
-      //   element: <AboutMe />,
-      // },
-      // {
-      //   path: "/experiencias",
-      //   element: <Experiencies />,
-      // },
-      // {
-      //   path: "/hardskills",
-      //   element: <HardSkills />,
-      // },
-      // {
-      //   path: "/softskills",
-      //   element: <SoftSkills />,
-      // },
-      // {
-      //   path: "/contatos",
-      //   element: <Contatos />,
-      // },
+      {
+        path: "/home",
+        element: <App />,
+      },
     ],
   },
 ]);
