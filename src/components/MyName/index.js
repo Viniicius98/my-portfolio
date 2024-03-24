@@ -14,4 +14,7 @@ export const MyNameContainer = styled.div`
   font-size: 18px;
   font-weight: bold;
   background: #5f6c6f;
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 12px;
+  }
 `;

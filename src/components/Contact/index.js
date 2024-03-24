@@ -19,6 +19,9 @@ export const MyContacts = styled.img`
   background: white;
   border: 2px solid black;
   border-radius: 50%;
+  @media (min-width: 320px) and (max-width: 767px) {
+    height: 16px;
+  }
 `;
 export const MyLinks = styled.a`
   margin: 5%;

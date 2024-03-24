@@ -12,4 +12,9 @@ export const ApresentationContainer = styled.p`
 export const Apresentation = styled.p`
   font-size: 25px;
   font-family: Arial, sans-serif;
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 2%;
+  }
 `;

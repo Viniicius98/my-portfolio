@@ -19,6 +19,10 @@ const AppContainer = styled.div`
   display: flex;
   background-color: #deefea;
   border-top: 4px solid black;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    height: 100vh;
+  }
 `;
 
 const AppCardContact = styled.div`
@@ -32,6 +36,9 @@ const AppCardContact = styled.div`
   border-radius: 2%;
   background: #c8d8db;
   color: #fff;
+  @media (min-width: 320px) and (max-width: 767px) {
+    height: 100vh;
+  }
 `;
 const AppCard = styled.div`
   width: 70%;
@@ -45,6 +52,10 @@ const AppCard = styled.div`
   border: 2px solid black;
   border-radius: 2%;
   background: #c8d8db;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 68%;
+    height: 100vh;
+  }
 `;
 const AppCardContent = styled.div`
   width: 75%;
@@ -56,6 +67,10 @@ const AppCardContent = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    height: 100vh;
+  }
 `;
 const ImgContainer = styled.div`
   width: 20%;

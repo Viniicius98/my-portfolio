@@ -13,6 +13,9 @@ export const DropdownContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 export const Button = styled.button`
@@ -29,5 +32,8 @@ export const Button = styled.button`
   &:hover {
     background-color: #141a1a;
     color: #fff;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 70%;
   }
 `;

@@ -9,6 +9,9 @@ export const Navcontainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #125f38;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 80%;
+  }
 `;
 export const Nav = styled.ul`
   height: 15vh;
@@ -30,5 +33,10 @@ export const Navli = styled.li`
   :hover {
     font-weight: bold;
     transform: scale(1.2);
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    margin-right: 30px;
+    font-size: 35px;
   }
 `;

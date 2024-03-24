@@ -9,6 +9,11 @@ export const MyProjectsContainer = styled.div`
   background: #34464b;
   border: 2px solid white;
   border-bottom-right-radius: 5%;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    height: 40vh;
+    overflow-x: auto;
+  }
 `;
 
 export const Project = styled.div`
@@ -25,16 +30,35 @@ export const Project = styled.div`
     height: 50px;
     margin: 2%;
   }
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    margin-top: 340px;
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 2%;
+    }
+  }
 `;
 export const Title = styled.h1`
   font-size: 18px;
   text-align: center;
   font-family: Verdana, sans-serif;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 14px;
+  }
 `;
 export const SubTitle = styled.h4`
   font-size: 14px;
   text-align: center;
   font-family: Verdana, sans-serif;
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 12px;
+  }
 `;
 export const Text = styled.p`
   font-size: 12px;
@@ -64,6 +88,9 @@ export const ProjectsContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 45%;
+    }
 
     li {
       margin: 5%;
@@ -74,6 +101,11 @@ export const ProjectsContainer = styled.div`
       padding: 10%;
       text-align: center;
       border: 2px ridge #0d1111;
+      @media (min-width: 320px) and (max-width: 767px) {
+        padding: 0%;
+        margin-right: 35px;
+        font-size: 12px;
+      }
     }
   }
 `;
@@ -82,4 +114,7 @@ export const ProjectLink = styled.a`
   color: inherit;
   font-size: 15px;
   font-weight: bold;
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 12px;
+  }
 `;
