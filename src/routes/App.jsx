@@ -1,5 +1,5 @@
 import ImageComponent from "../components/ImageComponent/Image";
-
+import { Analytics } from "@vercel/analytics/react";
 // import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 // import ApresentationComponent from "../components/Apresentation/Apresentation";
@@ -90,6 +90,7 @@ const ImgContainer = styled.div`
 const App = () => {
   return (
     <AppContainer>
+      <Analytics />
       <AppCardContact>
         <ImgContainer>
           <ImageComponent photo="/img/eu2.jpg" />

@@ -6,6 +6,7 @@ import ErrorPage from "./routes/ErrorPage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./routes/App";
 import ApresentationScreen from "./routes/Apresentation";
+import { Analytics } from "@vercel/analytics/react";
 
 // const router = createBrowserRouter([
 //   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Analytics />
     <RouterProvider router={router} />
   </React.StrictMode>
 );

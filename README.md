@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Portfólio Vinicius Silva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o meu projeto de portfólio pessoal, elaborado com React JS e Styled Components. Sua principal finalidade é proporcionar uma visão sobre quem sou, minhas experiências e destacar alguns dos meus projetos anteriores.
 
-## Available Scripts
+## Sobre Mim
 
-In the project directory, you can run:
+Me chamo Vinicius Silva e sou um entusiasta da tecnologia com paixão pelo desenvolvimento web. Com uma formação em ciência da computação, tenho dedicado meu tempo ao aprendizado contínuo e ao aprimoramento das minhas habilidades como desenvolvedor.
 
-### `npm start`
+## Objetivo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O objetivo deste projeto é fornecer uma plataforma para apresentar informações sobre mim e meus projetos anteriores de forma organizada e atraente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png" alt="React JS" width="50">
+<img src="https://styled-components.com/logo.png" alt="Styled Components" width="50">
 
-### `npm run build`
+Para mais informações ou para entrar em contato comigo, você pode me encontrar através dos seguintes meios:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Link do Meu Portifólio](https://my-portfolio-nu-sepia.vercel.app/)
+- [Meu Email](mailto:viniciuspa_silva@yahoo.com.br)
+- [Meu Perfil no LinkedIn](https://www.linkedin.com/in/viniciusssilva98/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por visitar meu portfólio!
